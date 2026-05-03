@@ -109,7 +109,7 @@
           <div v-if="cart.length > 0" class="cart-summary">
             <div class="cart-total">
               <span>Total:</span>
-              <strong>{{ totalPrice }}</strong>
+              <strong>{{ totalPrice }}Ks</strong>
             </div>
             <button class="order-btn" @click="placeOrder">
               🛍️ Place Order
