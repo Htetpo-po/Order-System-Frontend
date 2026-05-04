@@ -99,7 +99,7 @@
               </div>
             </div>
             <div class="cart-item-total">
-              <strong>${{ getItemTotal(item) }}</strong>
+              <strong>{{ getItemTotal(item) }}Ks</strong>
             </div>
             <button @click="removeFromCart(item.product_id)" class="remove-btn">
               ×
